@@ -1,24 +1,106 @@
-# Human Emotion Detection App 
+#  Human Emotion Detection App
 
-An industry-grade Human Emotion Detection web application built using
-**Transformer-based NLP (DistilBERT)** and **Streamlit**.
+A Streamlit-based web application that detects human emotions from text input using a fine-tuned Transformer model.
 
-##  Features
-- Detects 6 emotions: Joy, Sadness, Anger, Fear, Love, Surprise
-- Probability-based emotion scores
-- Negation-aware emotion handling
-- Emoji & slang normalization
-- Emotion history timeline
-- Optimized transformer inference
+---
 
-## Tech Stack
+## 🔗 Live Demo
+ **Click here:** [https://<your-streamlit-app-name>.streamlit.app](https://human-emotion-detection-app.streamlit.app/)
+
+
+##  Project Overview
+
+This application analyzes user-entered text and predicts the underlying human emotion such as:
+- Joy
+- Sadness
+- Anger
+- Fear
+- Love
+- Surprise
+
+It uses a **pre-trained NLP model fine-tuned DistilBERT Transformer with Hugging Face Transformers and PyTorch, generating probabilistic emotion predictions via softmax-based confidence scoring for emotion classification** and provides an interactive UI using **Streamlit**.
+
+---
+
+## Model Details
+
+- Model Format: `safetensors`
+- Framework: Hugging Face Transformers
+- Tokenizer: Included in the `emotion_model/` directory
+- Model Loading: Git LFS (Large File Storage)
+
+---
+
+##  Tech Stack
+
 - Python
-- PyTorch
-- HuggingFace Transformers
 - Streamlit
+- Hugging Face Transformers
+- PyTorch
 - NLTK
+- Git & Git LFS
+
+---
+
+##  Project Structure
+
+Human Emotion Detection App/
+│
+
+├── app/
+
+│ └── app.py
+
+│
+├── emotion_model/
+
+│ ├── config.json
+
+│ ├── model.safetensors
+
+│ ├── tokenizer.json
+
+│ ├── tokenizer_config.json
+
+│ ├── special_tokens_map.json
+
+│ └── vocab.txt
+
+│
+├── requirements.txt
+
+├── README.md
+
+└── .gitattributes
+
+
+---
 
 ##  Run Locally
-```bash
+
+### 1️ Create virtual environment
+
+python -m venv venv
+venv\Scripts\activate
+
+---
+
+### 2️ Install dependencies
 pip install -r requirements.txt
-streamlit run app.py
+
+---
+
+3️ Run Streamlit app
+streamlit run app/app.py
+
+---
+
+Author
+
+Eshani Banik
+B.Tech CSE | Machine Learning & NLP Enthusiast
+
+
+
+
+
