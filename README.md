@@ -5,7 +5,7 @@ A Streamlit-based web application that detects human emotions from text input us
 ---
 
 ## 🔗 Live Demo
- **Click here:** [https://<your-streamlit-app-name>.streamlit.app](https://human-emotion-detection-app.streamlit.app/)
+ **Click here:** [Human Emotion Detection App](https://human-emotion-detection-app.streamlit.app/)
 
 
 ##  Project Overview
