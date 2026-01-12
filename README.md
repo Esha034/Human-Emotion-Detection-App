@@ -98,7 +98,9 @@ streamlit run app/app.py
 Author
 
 Eshani Banik
-B.Tech CSE | Machine Learning & NLP Enthusiast
+B.Tech CSE
+
+Machine Learning & NLP Enthusiast
 
 
 
