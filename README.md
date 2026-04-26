@@ -56,12 +56,10 @@ Follow these steps to deploy the application on your local machine.
 1. Clone the Repository
 Note: Because this project uses Large File Storage for the model weights, ensure you have Git LFS installed before cloning.
 
-bash
-git lfs install
+bgit lfs install
 git clone https://github.com/Esha034/Human-Emotion-Detection-App
 cd Human-Emotion-Detection-App
-2. Set Up Virtual Environment
-Isolate your dependencies to prevent package conflicts:
+
 
 bash
 # Create the virtual environment
