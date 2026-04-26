@@ -1,13 +1,3 @@
-#  Human Emotion Detection App
-
-A Streamlit-based web application that detects human emotions from text input using a fine-tuned Transformer model.
-
----
-
-## 🔗 Live Demo
- **Click here:** [Human Emotion Detection App](https://human-emotion-detection-app.streamlit.app/)
-
-
 # 🧠 Human Emotion Detection App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://human-emotion-detection-app-link-here.streamlit.app)
@@ -15,6 +5,7 @@ A Streamlit-based web application that detects human emotions from text input us
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](#)
 [![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](#)
 A high-performance web application that utilizes Deep Learning and Natural Language Processing (NLP) to analyze raw text and instantly predict the underlying human emotion.
+
 🔗 **[Live Demo: Try the App Here!](https://human-emotion-detection-app.streamlit.app/)** 
 ---
 ## 🎯 Project Overview
