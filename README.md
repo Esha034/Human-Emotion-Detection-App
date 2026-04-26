@@ -50,7 +50,8 @@ Human-Emotion-Detection-App/
 ├── .gitattributes                  # LFS tracking definitions
 ├── requirements.txt                # Python environment dependencies
 └── README.md                       # Project documentation
-
+---
+---
 
 💻 How to Run Locally
 Follow these steps to deploy the application on your local machine.
