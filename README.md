@@ -16,8 +16,11 @@ This system processes user-entered text and performs multi-class sentiment analy
 - 😨 **Fear**
 - ❤️ **Love**
 - 😲 **Surprise**
+  
 By leveraging a fine-tuned **DistilBERT** Transformer architecture, the application outputs probabilistic emotion predictions via softmax-based confidence scoring, exposing the model's certainty to the user through an interactive UI.
+
 ## 🚀 Key Achievements
+
 *   **Designed** an end-to-end sentiment analysis system capable of detecting complex human emotions from raw text, utilizing Hugging Face Transformers and PyTorch.
 *   **Optimized** a pre-trained DistilBERT architecture to execute multi-class classification across 6 distinct emotional categories, yielding a **92.8%** predictive accuracy.
 *   **Constructed** a specialized natural language preprocessing pipeline featuring NLTK tokenization, slang normalization, and negation handling to heavily reduce contextual misclassifications.
