@@ -98,5 +98,7 @@ The application will automatically open in your default web browser at http://lo
 
 ```
 👨‍💻 Author
+
 Eshani Banik
+
 Data Scientist | Machine Learning Engineer
